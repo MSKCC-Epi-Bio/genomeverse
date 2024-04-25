@@ -5,8 +5,7 @@ Authors@R:
     person("Karissa", "Whiting", , "karissa.whiting@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4683-1868"))
 Description: genomeverse is a collection of R packages that are designed to work together seamlessly to create reproducible clinico-genomic analysis pipelines.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
