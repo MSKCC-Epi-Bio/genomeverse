@@ -53,6 +53,41 @@
   <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header"><h1 id="genomeverse">genomeverse<a class="anchor" aria-label="anchor" href="#genomeverse"></a>
 </h1></div>
+<!-- badges: start -->
+<!-- badges: end -->
+<p>genomeverse is a collection of R packages that are designed to work together seamlessly to create reproducible clinico-genomic analysis pipelines</p>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
+<p>You can install the development version of genomeverse from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"MSKCC-Epi-Bio/genomeverse"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
+</h2>
+<p><code><a href="https://mskcc-epi-bio.github.io/genomeverse/">library(genomeverse)</a></code> will load the core genomeverse packages:</p>
+<ul>
+<li>
+<a href="https://www.karissawhiting.com/cbioportalR/" class="external-link">cbioportalR</a>, for pulling data from cBioPortal.</li>
+<li>
+<a href="https://tidyr.tidyverse.org" class="external-link">oncokbR</a>, for oncoKB annotation fo data.</li>
+<li>
+<a href="https://mskcc-epi-bio.github.io/gnomeR/" class="external-link">gnomeR</a>, for processing raw mutation, CNA and fusion files.</li>
+</ul>
+<p>You also get a condensed summary of conflicts with other packages you have loaded:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mskcc-epi-bio.github.io/genomeverse/">genomeverse</a></span><span class="op">)</span></span>
+<span><span class="co">#&gt; ── Attaching packages ──────────────────────────────── genomeverse 0.0.0.9000 ──</span></span>
+<span><span class="co">#&gt; ✔ cbioportalR 1.1.0          ✔ oncokbR     0.0.0.9001</span></span>
+<span><span class="co">#&gt; ✔ gnomeR      1.2.0.9004</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
+<p>Please note that the tidyverse project is released with a <a href="https://tidyverse.tidyverse.org/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
+</div>
 </div>
   </main><aside class="col-md-3"><div class="license">
 <h2 data-toc-skip>License</h2>
