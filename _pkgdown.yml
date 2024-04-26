@@ -4,7 +4,7 @@ template:
   bootstrap: 5
   bootswatch: cosmo
   bslib:
-    primary: "#0C8C43"
+    primary: "#080445"
     text-muted: "#FFFFFF"
 
 authors:
