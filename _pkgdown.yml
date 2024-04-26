@@ -1,4 +1,18 @@
 url: https://mskcc-epi-bio.github.io/genomeverse/
+
 template:
   bootstrap: 5
+  bootswatch: cosmo
+  bslib:
+    primary: "#0C8C43"
+    text-muted: "#FFFFFF"
 
+authors:
+  Karissa Whiting:
+    href: "https://www.karissawhiting.com/"
+
+navbar:
+  bg: primary
+  structure:
+    left:  [reference, articles, news]
+    right: [search, github]
