@@ -26,7 +26,8 @@ devtools::install_github("MSKCC-Epi-Bio/genomeverse")
 
 - [cbioportalR](https://www.karissawhiting.com/cbioportalR/), for
   pulling data from cBioPortal.
-- [oncokbR](https://tidyr.tidyverse.org), for oncoKB annotation fo data.
+- [oncokbR](https://www.karissawhiting.com/oncokbR/), for oncoKB
+  annotation fo data.
 - [gnomeR](https://mskcc-epi-bio.github.io/gnomeR/), for processing raw
   mutation, CNA and fusion files.
 
