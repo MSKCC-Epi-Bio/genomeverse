@@ -21,3 +21,7 @@ Remotes:
     MSKCC-Epi-Bio/gnomeR,
     karissawhiting/oncokbR
 URL: https://mskcc-epi-bio.github.io/genomeverse/
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
