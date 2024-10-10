@@ -19,6 +19,8 @@ jobs:
       group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      SYNAPSE_PAT: ${{ secrets.SYNAPSE_PAT }}
+      CBIOPORTAL_TOKEN: ${{ secrets.CBIOPORTAL_TOKEN }}
     permissions:
       contents: write
     steps:
