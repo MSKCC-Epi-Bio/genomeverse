@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# genomeverse
+# genomeverse <a href="https://mskcc-epi-bio.github.io/genomeverse/"><img src="man/figures/logo.png" align="right" height="120" alt="genomeverse website" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
