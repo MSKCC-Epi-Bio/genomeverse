@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# genomeverse
+# genomeverse <a href="https://mskcc-epi-bio.github.io/genomeverse/"><img src="man/figures/logo.png" align="right" height="120" alt="genomeverse website" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -36,7 +36,7 @@ have loaded:
 
 ``` r
 library(genomeverse)
-#> ── Attaching packages ──────────────────────────────── genomeverse 0.0.0.9000 ──
+#> ── Attaching packages ──────────────────────────────── genomeverse 0.0.0.9001 ──
 #> ✔ cbioportalR 1.1.0          ✔ oncokbR     0.0.0.9001
 #> ✔ gnomeR      1.2.0.9004
 ```
