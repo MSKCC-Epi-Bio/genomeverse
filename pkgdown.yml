@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   genie-bpc-vignette: genie-bpc-vignette.html
-last_built: 2024-10-10T18:00Z
+last_built: 2024-10-10T19:58Z
 urls:
   reference: https://mskcc-epi-bio.github.io/genomeverse/reference
   article: https://mskcc-epi-bio.github.io/genomeverse/articles
