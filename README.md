@@ -6,9 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-genomeverse is a collection of R packages that are designed to work
+{genomeverse} is a collection of R packages that are designed to work
 together seamlessly to create reproducible clinico-genomic analysis
-pipelines
+pipelines.
 
 ## Installation
 
@@ -27,7 +27,7 @@ devtools::install_github("MSKCC-Epi-Bio/genomeverse")
 - [cbioportalR](https://www.karissawhiting.com/cbioportalR/), for
   pulling data from cBioPortal.
 - [oncokbR](https://www.karissawhiting.com/oncokbR/), for oncoKB
-  annotation fo data.
+  annotation of data.
 - [gnomeR](https://mskcc-epi-bio.github.io/gnomeR/), for processing raw
   mutation, CNA and fusion files.
 
@@ -36,7 +36,7 @@ have loaded:
 
 ``` r
 library(genomeverse)
-#> ── Attaching packages ──────────────────────────────── genomeverse 0.0.0.9000 ──
+#> ── Attaching packages ──────────────────────────────── genomeverse 0.0.0.9001 ──
 #> ✔ cbioportalR 1.1.0          ✔ oncokbR     0.0.0.9001
 #> ✔ gnomeR      1.2.0.9004
 ```
