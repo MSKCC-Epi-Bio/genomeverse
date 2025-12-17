@@ -13,16 +13,15 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-library(genieBPC)
+set.seed(20230302)
 
-set_synapse_credentials()
 # exit if user doesn't have synapser, a log in, or access to data.
+
+genieBPC::set_synapse_credentials()
+
 if (genieBPC:::.is_connected_to_genie() == FALSE){
   knitr::knit_exit()
 }
-
-
-set.seed(20230302)
 ```
 
 ```{r setup, include = FALSE, message = FALSE, results = FALSE, eval=genieBPC:::.is_connected_to_genie()}
